@@ -17,7 +17,7 @@ public class DNI {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(dni);
         
-        System.out.println("Patrones encontrados en la cadena email");
+        System.out.println("Patrones encontrados en la cadena dni");
         while (matcher.find()) {
             System.out.println("Patrón encontrado: " + matcher.group());
         }
