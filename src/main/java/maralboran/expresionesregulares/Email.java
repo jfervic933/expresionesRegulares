@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package maralboran.expresionesregulares;
 
 import java.util.regex.Matcher;
@@ -56,6 +53,8 @@ public class Email {
         while (matcher.find()) {
             System.out.println("Patrón encontrado: " + matcher.group());
         }
+        
+        
 
     }
 
